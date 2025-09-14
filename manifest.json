@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Ad Blocker",
+  "version": "1.0",
+  "description": "Amazon のおすすめ・スポンサー商品を非表示にする拡張機能",
+  "host_permissions": ["*://*.amazon.co.jp/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.co.jp/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
