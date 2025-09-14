@@ -1,4 +1,4 @@
-# chrome-extension-amazon-display
+# chrome-amazon-ad-hider
 
 Amazon ページでおすすめ・スポンサー商品を非表示にする Chrome 拡張機能です。
 
